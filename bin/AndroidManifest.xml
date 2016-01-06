@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssbbart.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ssbbart.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ssbbart.app.SceneOneActivity"
+            android:label="@string/title_activity_scene_one" >
+        </activity>
+        
+        <!--  
+        <activity
+            android:name=".SceneOneActivity"
+            android:label="@string/title_activity_scene_two" >
+        </activity>
+        <activity
+            android:name=".SceneThreeActivity"
+            android:label="@string/title_activity_scene_three" >
+        </activity>
+        <activity
+            android:name=".SceneFourActivity"
+            android:label="@string/title_activity_scene_four" >
+        </activity>
+        <activity
+            android:name=".SceneFiveActivity"
+            android:label="@string/title_activity_scene_five" >
+        </activity>
+        <activity
+            android:name=".SceneSixActivity"
+            android:label="@string/title_activity_scene_six" >
+        </activity>
+        <activity
+            android:name=".SceneSevenActivity"
+            android:label="@string/title_activity_scene_seven" >
+        </activity>
+        
+        -->
+    </application>
+
+</manifest>
