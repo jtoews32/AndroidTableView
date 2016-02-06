@@ -1,4 +1,4 @@
-package com.ssbbart.app;
+package com.jt.app;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import com.ssbbart.app.R;
 
 public class MainActivity extends ActionBarActivity {
 	
